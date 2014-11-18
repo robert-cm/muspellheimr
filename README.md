@@ -1,5 +1,5 @@
 Nevernaught
-==============
+--------------
 Description:
 --------------
 - 2D, top-down procedurally generated game(maps) using C++ and SFML(2.0+)
