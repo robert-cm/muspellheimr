@@ -1,4 +1,4 @@
-###### Nevernaught
+###### Muspellheimr
 --------------
 Description:
 - 2D sprite based, top-down camera, procedurally generated game, using heuristic search based algorithms for the AI, written in C++ using SFML 2.(0)
