@@ -1,11 +1,14 @@
 ###### Nevernaught
 --------------
 Description:
-⋅* 2D, top-down procedurally generated game(maps) using C++ and SFML(2.0+)
-⋅⋅* GUI, sprite based graphics engine(4 axis animation)
-⋅⋅* threads
-⋅⋅* A(star) search alg/dijkstra based AI
-⋅⋅* various classic motiffs(eg. powerups,       )
-⋅⋅*                         (    health pickups, )
-⋅⋅*                         (    pacman-like-enemies(ghosts fleeing from player on powerup)  )
-⋅⋅*                         (    //TODO          )
+> 2D sprite based, top-down camera, procedurally generated game, using heuristic search based algorithms for the AI, written in C++ using SFML 2.(0)
+
+###### Specifications:
+
+| Technology Used    | Status           | E/R time  |
+| ------------- |:-------------:|:-----:|
+| Basic Engine Implementation  | `TODO` | `N/A` |
+| Djikstra/A*      | `TODO` | `N/A` |
+| Procedural map generator | `TODO`      | `N/A` |
+| Classic motiffs(eg. powerups) | `TODO` | `N/A` |
+| Threads | `TODO` | `N/A` |
