@@ -1,7 +1,6 @@
 Nevernaught
 --------------
 Description:
---------------
 - 2D, top-down procedurally generated game(maps) using C++ and SFML(2.0+)
 - GUI, sprite based graphics engine(4 axis animation)
 - threads
