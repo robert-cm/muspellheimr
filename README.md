@@ -6,6 +6,7 @@ Description:
 - threads
 - A* search alg/dijkstra based AI
 - various classic motiffs(eg. powerups,       )
--                        (    health pickups, )
--                        (    pacman-like-enemies(ghosts fleeing from player on powerup)  )
--                        (    //TODO          )
+-                         (    health pickups, )
+-                         (    pacman-like-enemies(ghosts fleeing from player on powerup)  )
+-                         (    //TODO          )
+-
