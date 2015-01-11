@@ -1,14 +1,17 @@
 ###### Muspellheimr
 --------------
 Description:
-- 2D sprite based, top-down camera, procedurally generated game, using heuristic search based algorithms for the AI, written in C++ using SFML 2.(0)
+- 2D sprite based, top-down camera, procedurally generated game, using heuristic search based algorithms for the AI, written in C using OpenGL
 
 ###### Planning:
 
 | Technology Used    | Status           | E/R time  |
 | ------------- |:-------------:|:-----:|
-| Basic Engine Implementation  | `TODO` | `N/A` |
-| Djikstra/A*      | `//TODO` | `N/A` |
-| Procedural map generator | `//TODO`      | `N/A` |
-| Classic motiffs(eg. powerups) | `//TODO` | `N/A` |
+| Implement fundamental classes,objects | `Placeholder models in use` | `N/A` |
+| Camera handler class | `Keyboard and mouse input` | `N/A` |
+| Game engine implementation | `//TODO`      | `N/A` |
+| Logic systems and models | `//TODO` | `N/A` |
+| Effects and pathfinding algorithm | `//TODO`| `N/A` |
+| Animated background and collision | `Tentative` | `N/A` |
 | Threads | `//TODO` | `N/A` |
+
