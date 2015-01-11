@@ -1,0 +1,26 @@
+\begin{savequote}[75mm] 
+”Form follows function.”
+\qauthor{Louis Henri Sullivan} 
+\end{savequote}
+
+\chapter{Game Design}
+\section{Development process}
+\lettrine[lines=1]{\color{Crimson}O}{penGL} was chosen as a suitable engine. The decision was made with regard to it having many great, in-built tools and provided a good framework, thus allowing the development to start as seamless as possible. A bonus was the fact that OpenGL\cite{Shreiner2013} worked well with the C-Language family\cite{Ritchie1988}. Ever since the beginning of development the vision for the project was for it to have good, quality pixel sprites. Thus, there wasn't a need for a sophisticated modelling program.
+With these choices made the development environment was the last decision on the list, a simple one for that matter, having prior used Vim with the semantic, clang-based code completion engine, \href{http://valloric.github.io/YouCompleteMe}{YouCompleteMe}. For the audio library OpenAL was the go-to choice.\\
+\newpage
+\section{Game type and specifics}
+\lettrine[lines=1]{\color{Crimson}W}{ith} the decision of choosing a type of game being free from the very beginning, the project was required to have the following concepts: a statistics-based system, multi-threaded engine\cite{Gamasutra, Bitsquid}, synchronous parallel models and last but not least a turn-based combat engine. Statistics in role-playing games usually are pieces of data that represent particular aspects of characters. These pieces of data are usually unitless integers or a set of dice.\\
+The most often used types of statistic include:
+\begin{enumerate}
+\item Attributes
+\noindent -- describe to what extent a character possesses natural, in-born characteristics common to all characters.
+Advantages and disadvantages are useful or problematic characteristics that are not common to all characters.
+\item Powers
+\noindent -- represent unique or special qualities of the character. In game terms, these often grant the character the potential to gain or develop certain advantages or to learn and use certain skills.
+\item Skills
+\noindent -- represent a character's learned abilities in predefined areas.
+\item Traits
+\noindent -- are broad areas of expertise, similar to skills, but with a broader and usually more loosely defined scope, in areas freely chosen by the player.
+\end{enumerate}
+
+\afterpage{\clearpage}

@@ -8,7 +8,7 @@ Description:
 | Technology Used    | Status           | E/R time  |
 | ------------- |:-------------:|:-----:|
 | Basic Engine Implementation  | `TODO` | `N/A` |
-| Djikstra/A*      | `TODO` | `N/A` |
-| Procedural map generator | `TODO`      | `N/A` |
-| Classic motiffs(eg. powerups) | `TODO` | `N/A` |
-| Threads | `TODO` | `N/A` |
+| Djikstra/A*      | `//TODO` | `N/A` |
+| Procedural map generator | `//TODO`      | `N/A` |
+| Classic motiffs(eg. powerups) | `//TODO` | `N/A` |
+| Threads | `//TODO` | `N/A` |
