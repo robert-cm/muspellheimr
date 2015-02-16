@@ -87,24 +87,16 @@ int main() {
 	//main character symbol and initial position
 	int row = 10, col = 10;
 	char main_char = '@';
-
+	
 	//ncurses init
 	init();
-
-	//on screen welcome message
-	printw("Welcome to Muspellheimr, a world of jelly and cranky weasels.\nPress any key to start.\nTo quit press \"q\" or \"Q\"");
-
-	//waiting for user key press
+	
+	printw("Welcome to Muspellheimr, a world of  and cranky weasels.\nPress any key to start.\nTo quit press \"q\" or \"Q\"");
 	int ch = getch();
-
-	//clear screen
-	clear();	
-
-	//game loop start
+	clear();
 	game_loop(main_char, row, col, ch);
 
 	//clear ncurses data structures
 	endwin();
-
 	return 0;
 }
